@@ -1,0 +1,21 @@
+# Ignore specific files and directories
+/testing/kubeseal*
+testing/secret.yaml
+/MySql-Deployment/mysql-secret.yaml
+Infra Internship Task 2025.pdf
+Infrastucture Task details.md
+sealed-secrets-controller-manifest
+
+# Ignore raw secrets in test_reencryption
+test_reencryption/*/secret.yaml
+test_reencryption/*/raw-*.yaml
+test_reencryption/*/tls.key
+test_reencryption/reencryption.log
+test_reencryption/secret*.yaml
+test_reencryption/new-test-secret.yaml
+test_reencryption/*.pem
+test_reencryption/sealed-secrets-keys-backup.yaml
+
+# Ignore improved documentation
+detailed_testing_plan.md
+Automating_re-encryption_of_SealedSecrets_Improved.md
